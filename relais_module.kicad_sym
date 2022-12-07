@@ -15,7 +15,7 @@
     (symbol "relais_module_0_1"
       (rectangle (start -11.43 6.35) (end 10.16 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (rectangle (start -6.35 3.81) (end 3.81 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
