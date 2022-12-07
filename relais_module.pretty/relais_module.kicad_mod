@@ -27,19 +27,9 @@
   (pad "1" thru_hole oval (at -11.938 5.08 90) (size 2 3) (drill 1.016) (layers *.Cu *.Mask) (tstamp 9a9edaa1-a7ed-4eca-ab92-49216d72cb3c))
   (pad "2" thru_hole oval (at -11.938 2.54 90) (size 2 3) (drill 1.016) (layers *.Cu *.Mask) (tstamp 5d295569-5478-41bf-8ed1-67a12f12c9e1))
   (pad "3" thru_hole oval (at -11.938 0 90) (size 2 3) (drill 1.016) (layers *.Cu *.Mask) (tstamp 196e9d1c-db49-417f-aace-f03bb4fb4d52))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl"
-    (opacity 0.3700)    (offset (xyz -12 -2 0))
+  (model "${KIPRJMOD}/lib/relais_module/relais_module.step"
+    (offset (xyz 35 2 -1.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Finder_36.11.wrl"
-    (offset (xyz -7.5 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal.wrl"
-    (offset (xyz 14.5 -2 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz -90 0 90))
   )
 )
